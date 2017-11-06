@@ -11,8 +11,7 @@
    c. About Section
    d. education Section
    e. Testimonials Section
-   f. Contact Section
-   g. Footer
+   f. Footer
 
 ===================================================================== */
 
@@ -33,7 +32,7 @@ header {
    width: 100%;
    background: #161415 url(../background.jpg) no-repeat center center;
    background-size: cover !important;
-	-webkit-background-size: cover !important;
+  -webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
 }
@@ -123,10 +122,10 @@ header .scrolldown a:hover { color: #11ABB0; }
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
-	 margin: 0;
-	 padding: 0;
-	 border: none;
-	 outline: none;
+   margin: 0;
+   padding: 0;
+   border: none;
+   outline: none;
 }
 
 /* nav-wrap */
@@ -168,15 +167,15 @@ ul#nav li a {
    display: inline-block;
    padding: 8px 13px;
    line-height: 32px;
-	text-decoration: none;
+  text-decoration: none;
    text-align: left;
    color: #fff;
 
-	-webkit-transition: color .2s ease-in-out;
-	-moz-transition: color .2s ease-in-out;
-	-o-transition: color .2s ease-in-out;
-	-ms-transition: color .2s ease-in-out;
-	transition: color .2s ease-in-out;
+  -webkit-transition: color .2s ease-in-out;
+  -moz-transition: color .2s ease-in-out;
+  -o-transition: color .2s ease-in-out;
+  -ms-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
 }
 
 ul#nav li a:active { background-color: transparent !important; }
@@ -333,34 +332,34 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /*----------------------------------------------*/
-/*	Skill Bars
+/*  Skill Bars
 /*----------------------------------------------*/
 
 .bars {
-	width: 95%;
-	float: left;
-	padding: 0;
-	text-align: left;
+  width: 95%;
+  float: left;
+  padding: 0;
+  text-align: left;
 }
 .bars .skills {
-  	margin-top: 36px;
+    margin-top: 36px;
    list-style: none;
 }
 .bars li {
    position: relative;
-  	margin-bottom: 60px;
-  	background: #ccc;
-  	height: 42px;
-  	border-radius: 3px;
+    margin-bottom: 60px;
+    background: #ccc;
+    height: 42px;
+    border-radius: 3px;
 }
 .bars li em {
-	font: 15px 'opensans-bold', sans-serif;
+  font: 15px 'opensans-bold', sans-serif;
    color: #313131;
-	text-transform: uppercase;
+  text-transform: uppercase;
    letter-spacing: 2px;
-	font-weight: normal;
+  font-weight: normal;
    position: relative;
-	top: -36px;
+  top: -36px;
 }
 .bar-expand {
    position: absolute;
@@ -369,42 +368,42 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+    background: #313131;
    display: inline-block;
-  	height: 42px;
+    height: 42px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
 
 .photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+    width: 60%;
+    -moz-animation: photoshop 2s ease;
+    -webkit-animation: photoshop 2s ease;
 }
 .illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+    width: 55%;
+    -moz-animation: illustrator 2s ease;
+    -webkit-animation: illustrator 2s ease;
 }
 .wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+    width: 50%;
+    -moz-animation: wordpress 2s ease;
+    -webkit-animation: wordpress 2s ease;
 }
 .css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+    width: 90%;
+    -moz-animation: css 2s ease;
+    -webkit-animation: css 2s ease;
 }
 .html5 {
-  	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+    width: 80%;
+    -moz-animation: html5 2s ease;
+    -webkit-animation: html5 2s ease;
 }
 .jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+    width: 50%;
+    -moz-animation: jquery 2s ease;
+    -webkit-animation: jquery 2s ease;
 }
 
 @-moz-keyframes photoshop {
@@ -463,11 +462,11 @@ ul#nav li.current a { color: #F06000; }
 #testimonials {
    background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
    background-size: cover !important;
-	-webkit-background-size: cover !important;
+  -webkit-background-size: cover !important;
    background-attachment: fixed;
 
    position: relative;
-   min-height: 200px;
+   min-height: 300px;
    width: 100%;
    overflow: hidden;
 }
@@ -486,15 +485,15 @@ ul#nav li.current a { color: #F06000; }
 #testimonials .header-col h1:before {
    font-family: 'FontAwesome';
    content: "\f10d";
-	padding-right: 10px;
-	font-size: 72px;
+  padding-right: 10px;
+  font-size: 72px;
    line-height: 72px;
    text-align: left;
    float: left;
    color: #fff;
 }
 
-/*	Blockquotes */
+/*  Blockquotes */
 #testimonials blockquote {
    margin: 0 0px 30px 0px;
    padding-left: 0;
@@ -606,144 +605,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* ------------------------------------------------------------------ */
-/* f. Contact Section
-/* ------------------------------------------------------------------ */
-
-#contact {
-   background: #191919;
-   padding-top: 96px;
-   padding-bottom: 102px;
-   color: #636363;
-}
-#contact .section-head { margin-bottom: 42px; }
-
-#contact a, #contact a:visited  { color: #11ABB0; }
-#contact a:hover, #contact a:focus { color: #fff; }
-
-#contact h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   color: #EBEEEE;
-   margin-bottom: 6px;
-}
-#contact h1 span { display: none; }
-#contact h1:before {
-   font-family: 'FontAwesome';
-   content: "\f0e0";
-	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
-   color: #ebeeee;
-}
-
-#contact h4 {
-   font: 16px/24px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
-   margin-bottom: 6px;
-}
-#contact p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
-   padding-right: 3%;
-}
-#contact .header-col { padding-top: 6px; }
-
-
-/* contact form */
-#contact form { margin-bottom: 30px; }
-#contact label {
-   font: 15px/24px 'opensans-bold', sans-serif;
-   margin: 12px 0;
-   color: #EBEEEE;
-	display: inline-block;
-	float: left;
-   width: 26%;
-}
-#contact input,
-#contact textarea,
-#contact select {
-   padding: 18px 20px;
-	color: #eee;
-	background: #373233;
-	margin-bottom: 42px;
-	border: 0;
-	outline: none;
-   font-size: 15px;
-   line-height: 24px;
-   width: 65%;
-}
-#contact input:focus,
-#contact textarea:focus,
-#contact select:focus {
-	color: #fff;
-	background-color: #11ABB0;
-}
-#contact button.submit {
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	color:#fff;
-   background: #0D0D0D;
-	border: none;
-   cursor: pointer;
-   height: auto;
-   display: inline-block;
-	border-radius: 3px;
-   margin-left: 26%;
-}
-#contact button.submit:hover {
-	color: #0D0D0D;
-	background: #fff;
-}
-#contact span.required {
-	color: #11ABB0;
-	font-size: 13px;
-}
-#message-warning, #message-success {
-   display: none;
-	background: #0F0F0F;
-	padding: 24px 24px;
-	margin-bottom: 36px;
-   width: 65%;
-   margin-left: 26%;
-}
-#message-warning { color: #D72828; }
-#message-success { color: #11ABB0; }
-
-#message-warning i,
-#message-success i {
-   margin-right: 10px;
-}
-#image-loader {
-   display: none;
-   position: relative;
-   left: 18px;
-   top: 17px;
-}
-
-
-/* Twitter Feed */
-#twitter {
-   margin-top: 12px;
-   padding: 0;
-}
-#twitter li {
-   margin: 6px 0px 12px 0;
-   line-height: 30px;
-}
-#twitter li span {
-   display: block;
-}
-#twitter li b a {
-   font: 13px/36px 'opensans-regular', Sans-serif;
-   color: #474747 !important;
-   border: none;
-}
-
-
-/* ------------------------------------------------------------------ */
-/* g. Footer
+/* f. Footer
 /* ------------------------------------------------------------------ */
 
 footer {
@@ -800,20 +662,20 @@ footer .social-links li:first-child { margin-left: 0; }
 
 /* Go To Top Button */
 #go-top {
-	position: absolute;
-	top: -24px;
+  position: absolute;
+  top: -24px;
    left: 50%;
    margin-left: -30px;
 }
 #go-top a {
-	text-decoration: none;
-	border: 0 none;
-	display: block;
-	width: 60px;
-	height: 60px;
-	background-color: #525252;
+  text-decoration: none;
+  border: 0 none;
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-color: #525252;
 
-	-webkit-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
    -o-transition: all 0.2s ease-in-out;
    -ms-transition: all 0.2s ease-in-out;
@@ -822,7 +684,7 @@ footer .social-links li:first-child { margin-left: 0; }
    color: #fff;
    font-size: 21px;
    line-height: 60px;
- 	border-radius: 100%;
+  border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
 
